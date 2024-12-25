@@ -1,0 +1,23 @@
+# fungsi.py
+class Kalkulator:
+    def __init__(self):
+        # Konstruktor untuk Kalkulator, tidak ada atribut khusus yang disimpan
+        pass
+
+    def tambah(self, a, b):
+        """Menambahkan dua angka"""
+        return a + b
+
+    def kurang(self, a, b):
+        """Mengurangi dua angka"""
+        return a - b
+
+    def kali(self, a, b):
+        """Mengalikan dua angka"""
+        return a * b
+
+    def bagi(self, a, b):
+        """Membagi dua angka"""
+        if b == 0:
+            return "Error: Pembagian dengan nol tidak diperbolehkan."
+        return a / b
